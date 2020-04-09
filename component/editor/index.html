@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>主编辑区组件布局和测试页面</title>
+  <link rel="stylesheet" href="editor.css">
+</head>
+<body>
+  
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="editor.js"></script>
+<script>
+  $(function() {
+    $editor.show({
+        posHandler: function(t, e) {
+            $statusBar.setRowCol(t, e)
+        },
+        contentHandler: function(t) {
+            $menubar.enabled(1, 6, t)
+        }
+    })
+    $editor.setFont({
+        family: np.fontFamily,
+        style: np.fontStype,
+        size: np.fontSize
+    })
+  });
+</script>
+</body>
+</html>
+
