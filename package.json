@@ -1,0 +1,22 @@
+{
+  "name": "jsnotedpad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Liwenroul/jsnotedpad.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Liwenroul/jsnotedpad/issues"
+  },
+  "homepage": "https://github.com/Liwenroul/jsnotedpad#readme",
+  "devDependencies": {
+    "grunt": "^1.1.0"
+  }
+}
